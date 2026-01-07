@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of HTML</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f2f5;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        .intro {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .html-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 0 auto 30px;
+            border-radius: 8px;
+        }
+        
+        .event {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .event-title {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        .event-content {
+            color: #555;
+        }
+        
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>2 - A History of HTML</h1>
+        
+        <p class="intro">In this page, we take a look at the history of HTML, figure out how it was created, who created it, and how it has developed.</p>
+        
+        <img src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" 
+             alt="HTML Development" 
+             class="html-image">
+        
+        <div class="event">
+            <h2 class="event-title">1989: The Invention of the Web and HTML at CERN</h2>
+            <p class="event-content">Tim Berners-Lee invented the World Wide Web at CERN to facilitate global information sharing among researchers. He created <span class="highlight">HTML (HyperText Mark-up Language)</span> as its simple publishing language and HTTP as the transfer protocol, implementing his first prototype on a NeXT workstation in 1990.</p>
+        </div>
+        
+        <div class="event">
+            <h2 class="event-title">1990: Building HTML on the SGML Standard</h2>
+            <p class="event-content">Instead of creating a completely new language, Tim Berners-Lee based HTML's syntax on <span class="highlight">SGML (Standard Generalized Mark-up Language)</span>, an internationally agreed standard for defining document structure. His key innovation was adding the hypertext anchor element (<span class="highlight">&lt;A&gt; with the HREF attribute</span>) to create links.</p>
+        </div>
+        
+        <div class="event">
+            <h2 class="event-title">September 1991: The Start of Open Collaboration via WWW-talk</h2>
+            <p class="event-content">The development of HTML became an open, collaborative process when the <span class="highlight">WWW-talk mailing list</span> was launched. This electronic forum allowed Tim Berners-Lee, early enthusiasts like Dave Raggett, and other researchers to openly debate ideas and the future direction of HTML across the Internet.</p>
+        </div>
+        
+        <div class="event">
+            <h2 class="event-title">December 1992: The Introduction of the &lt;IMG&gt; Tag by Mosaic</h2>
+            <p class="event-content">A pivotal moment occurred when <span class="highlight">Marc Andreessen</span> of the NCSA Mosaic browser team introduced the <span class="highlight">&lt;IMG&gt; tag</span> to embed images. While its design was controversial, its implementation in the Mosaic browser made it a de-facto standard.</p>
+        </div>
+        
+        <div class="event">
+            <h2 class="event-title">April 1993: Release of the NCSA Mosaic Browser</h2>
+            <p class="event-content">The release of the <span class="highlight">Mosaic browser</span> for UNIX workstations was a major catalyst for the Web's popularity. It extended HTML with highly attractive features like embedded images, nested lists, and fill-out forms.</p>
+        </div>
+        
+        <footer>
+            <p>Based on "A history of HTML" from W3C | HTML has evolved from a simple language to a complex system enabling rich web pages.</p>
+        </footer>
+    </div>
+</body>
+</html>
